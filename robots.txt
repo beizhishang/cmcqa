@@ -1,0 +1,4 @@
+User-agent:*
+Disallow:
+
+Sitemap: https://beizhishang.github.io/cmcqa/sitemap.xml
