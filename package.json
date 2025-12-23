@@ -8,10 +8,12 @@
     "docs:build": "vuepress-vite build src",
     "docs:clean-dev": "vuepress-vite dev src --clean-cache",
     "docs:dev": "vuepress-vite dev src",
-    "docs:update-package": "pnpm dlx vp-update"
+    "docs:update-package": "pnpm dlx vp-update",
+    "docs:deploy": "pnpm docs:build && gh-pages -d src/.vuepress/dist -b gh-pages"
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.26",
+    "gh-pages": "^6.3.0",
     "sass-embedded": "^1.97.1",
     "vue": "^3.5.26",
     "vuepress": "2.0.0-rc.26",
