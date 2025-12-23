@@ -1,0 +1,176 @@
+<template><div><h1 id="superdex-200-pg-层析柱-sk-16-70-装柱操作流程" tabindex="-1"><a class="header-anchor" href="#superdex-200-pg-层析柱-sk-16-70-装柱操作流程"><span>Superdex 200 pg 层析柱（SK 16/70）装柱操作流程</span></a></h1>
+<h2 id="_1-填料准备" tabindex="-1"><a class="header-anchor" href="#_1-填料准备"><span>1. 填料准备</span></a></h2>
+<ol>
+<li>
+<p><strong>计算填料用量</strong><br>
+根据最终柱体积和填料压缩因子计算所需悬浮液体积。</p>
+<ul>
+<li>填料压缩因子：1.15</li>
+<li>柱体积：120 mL</li>
+<li>悬浮液所需体积：120 × 1.15 = 138 mL（示例中为 184 mL）</li>
+</ul>
+</li>
+<li>
+<p><strong>静置沉淀</strong><br>
+建议采用静置沉淀法，确定胶悬液浓度。</p>
+<ul>
+<li>大部分机翼填料以 75% 浓度储存在 20% 乙醇中。</li>
+</ul>
+</li>
+<li>
+<p><strong>溶液置换</strong></p>
+<ul>
+<li>通过真空抽滤，将 20% 乙醇更换为装柱所需溶液（如水）。</li>
+<li>重复三次。</li>
+</ul>
+</li>
+<li>
+<p><strong>最终悬浮</strong></p>
+<ul>
+<li>用装柱缓冲液重新悬浮填料，并用量筒定容到所需体积（如 184 mL）。</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="_2-装柱前准备" tabindex="-1"><a class="header-anchor" href="#_2-装柱前准备"><span>2. 装柱前准备</span></a></h2>
+<ol>
+<li>
+<p><strong>工具准备</strong></p>
+<ul>
+<li>填料、空柱、装柱器</li>
+<li>底端配件、顶部适配器、注射器连接器、滤膜工具</li>
+<li>蒸馏水、20% 乙醇</li>
+<li>堵头</li>
+</ul>
+</li>
+<li>
+<p><strong>设备准备</strong></p>
+<ul>
+<li>层析系统（如 Akta Pure）</li>
+<li>检查系统压力、流速、UV 和电导率监测器、Unicorn 软件</li>
+</ul>
+</li>
+<li>
+<p><strong>柱体检查</strong></p>
+<ul>
+<li>检查玻璃柱端部，确保无缺口</li>
+<li>柱子和装柱器用 20% 乙醇润洗</li>
+<li>检查筛网孔径与填料粒径匹配</li>
+<li>确保底端部件和顶部适配器连接牢固</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="_3-装柱操作流程" tabindex="-1"><a class="header-anchor" href="#_3-装柱操作流程"><span>3. 装柱操作流程</span></a></h2>
+<ol>
+<li>
+<p><strong>柱底准备</strong></p>
+<ul>
+<li>用注射器推入 20% 乙醇排空气，让乙醇停留在滤网上</li>
+<li>连接底端柱头到柱子</li>
+<li>固定柱子（助教或铁架台）</li>
+</ul>
+</li>
+<li>
+<p><strong>液体加入</strong></p>
+<ul>
+<li>向柱中加入 20% 乙醇或蒸馏水至几厘米高度</li>
+<li>连接装柱器，确保柱管垂直</li>
+</ul>
+</li>
+<li>
+<p><strong>装柱器设置</strong></p>
+<ul>
+<li>Unicorn 软件设定压力报警（如 Superdex 200 pg，0.5 MPa）</li>
+<li>使用玻璃棒将胶悬液倒入柱管，贴壁倒入</li>
+<li>用装柱缓冲液补足装柱器上端空余体积</li>
+<li>盖上装柱器顶盖</li>
+</ul>
+</li>
+<li>
+<p><strong>排气泡</strong></p>
+<ul>
+<li>使用 Pump Watch 功能排出设备及管路中的气泡</li>
+<li>底部放废液缸，底端拧开，将管路与装柱器顶部液滴对液滴连接</li>
+</ul>
+</li>
+<li>
+<p><strong>装柱运行</strong></p>
+<ul>
+<li>按填料说明书推荐流速运行</li>
+<li>第二阶段可使用更高压力压实填料</li>
+<li>观察胶面下降至装柱器以下并稳定</li>
+<li>用记号笔标记胶面</li>
+</ul>
+</li>
+<li>
+<p><strong>装柱器拆卸</strong></p>
+<ul>
+<li>停止流速</li>
+<li>底部堵头封闭</li>
+<li>拆卸装柱器顶部</li>
+<li>用滴管补足柱头液面</li>
+<li>顶端适配器推入 20% 乙醇排空气，停留滤网上</li>
+<li>适配器缓慢下降至胶面，液体从柱头排出</li>
+<li>上端螺纹紧固</li>
+</ul>
+</li>
+<li>
+<p><strong>最终连接与调节</strong></p>
+<ul>
+<li>重新将管路与柱头液滴对液滴连接</li>
+<li>打开底部堵头，继续运行流速</li>
+<li>如胶面变化可调节适配器高度</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="_4-柱效测定" tabindex="-1"><a class="header-anchor" href="#_4-柱效测定"><span>4. 柱效测定</span></a></h2>
+<ol>
+<li>
+<p><strong>样品准备</strong></p>
+<ul>
+<li>方法 1：1% 丙酮，水为流动相，检测 280 nm UV</li>
+<li>方法 2：0.8 mol/L NaCl，0.4 mol/L NaCl 为流动相，检测电导率</li>
+<li>上样量：1% 柱体积（120 mL × 1% = 1.2 mL）</li>
+</ul>
+</li>
+<li>
+<p><strong>测定操作</strong></p>
+<ul>
+<li>低流速 30 cm/h，先上后下方式连接管路</li>
+<li>将样品通过注射器推入 loop 环</li>
+<li>Unicorn 软件 Master Editor 设置参数：压力报警、缓冲液入口、流速、平衡体积、上样体积</li>
+</ul>
+</li>
+<li>
+<p><strong>结果分析</strong></p>
+<ul>
+<li>积分电脑曲线，输入柱高值</li>
+<li>查看 HETP 和对称性</li>
+<li>合格标准：对称性 0.8–1.5，理论塔板数符合说明书要求</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="_5-暂时不使用或拆卸柱子" tabindex="-1"><a class="header-anchor" href="#_5-暂时不使用或拆卸柱子"><span>5. 暂时不使用或拆卸柱子</span></a></h2>
+<ol>
+<li>
+<p><strong>封闭柱头</strong></p>
+<ul>
+<li>两端用堵头封闭（先下后上方式）</li>
+</ul>
+</li>
+<li>
+<p><strong>拆卸操作</strong></p>
+<ul>
+<li>拧松上端黑色螺纹口，移除顶部适配器</li>
+<li>将柱子链接到 Akta 系统</li>
+<li>软件设置对应压力和流速，将填料顶出</li>
+<li>填料和空柱可重新使用</li>
+</ul>
+</li>
+</ol>
+</div></template>
+
+
