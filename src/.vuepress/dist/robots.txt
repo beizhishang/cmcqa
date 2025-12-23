@@ -1,4 +1,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://beizhishang.github.io/cmcqa/sitemap.xml
+Sitemap: https://vuepress-theme-hope-docs-demo.netlify.app/cmcqa/sitemap.xml

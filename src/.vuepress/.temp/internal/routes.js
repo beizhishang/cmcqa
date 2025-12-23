@@ -9,28 +9,11 @@ export const routes = Object.fromEntries([
   ["/demo/layout.html", { loader: () => import(/* webpackChunkName: "demo_layout.html" */"/Users/xpy/Coding/cmcqa/src/.vuepress/.temp/pages/demo/layout.html.js"), meta: {"title":"布局","icon":"object-group","order":2} }],
   ["/demo/markdown.html", { loader: () => import(/* webpackChunkName: "demo_markdown.html" */"/Users/xpy/Coding/cmcqa/src/.vuepress/.temp/pages/demo/markdown.html.js"), meta: {"title":"Markdown 展示","icon":"fa6-brands:markdown","order":2} }],
   ["/demo/page.html", { loader: () => import(/* webpackChunkName: "demo_page.html" */"/Users/xpy/Coding/cmcqa/src/.vuepress/.temp/pages/demo/page.html.js"), meta: {"title":"页面配置","icon":"file","order":3} }],
-  ["/guide/", { loader: () => import(/* webpackChunkName: "guide_index.html" */"/Users/xpy/Coding/cmcqa/src/.vuepress/.temp/pages/guide/index.html.js"), meta: {"title":"指南","icon":"lightbulb"} }],
   ["/test/", { loader: () => import(/* webpackChunkName: "test_index.html" */"/Users/xpy/Coding/cmcqa/src/.vuepress/.temp/pages/test/index.html.js"), meta: {"title":"Superdex 200 pg 层析柱（SK 16/70）装柱操作流程"} }],
+  ["/guide/", { loader: () => import(/* webpackChunkName: "guide_index.html" */"/Users/xpy/Coding/cmcqa/src/.vuepress/.temp/pages/guide/index.html.js"), meta: {"title":"指南","icon":"lightbulb"} }],
   ["/guide/foo/", { loader: () => import(/* webpackChunkName: "guide_foo_index.html" */"/Users/xpy/Coding/cmcqa/src/.vuepress/.temp/pages/guide/foo/index.html.js"), meta: {"title":"Foo 功能","icon":"lightbulb"} }],
   ["/guide/foo/ray.html", { loader: () => import(/* webpackChunkName: "guide_foo_ray.html" */"/Users/xpy/Coding/cmcqa/src/.vuepress/.temp/pages/guide/foo/ray.html.js"), meta: {"title":"Ray","icon":"circle-info"} }],
   ["/guide/bar/", { loader: () => import(/* webpackChunkName: "guide_bar_index.html" */"/Users/xpy/Coding/cmcqa/src/.vuepress/.temp/pages/guide/bar/index.html.js"), meta: {"title":"Bar 功能","icon":"lightbulb"} }],
   ["/guide/bar/baz.html", { loader: () => import(/* webpackChunkName: "guide_bar_baz.html" */"/Users/xpy/Coding/cmcqa/src/.vuepress/.temp/pages/guide/bar/baz.html.js"), meta: {"title":"Baz","icon":"circle-info"} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"/Users/xpy/Coding/cmcqa/src/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
 ]);
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateRoutes) {
-    __VUE_HMR_RUNTIME__.updateRoutes(routes)
-  }
-  if (__VUE_HMR_RUNTIME__.updateRedirects) {
-    __VUE_HMR_RUNTIME__.updateRedirects(redirects)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ routes, redirects }) => {
-    __VUE_HMR_RUNTIME__.updateRoutes(routes)
-    __VUE_HMR_RUNTIME__.updateRedirects(redirects)
-  })
-}
